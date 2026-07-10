@@ -7,3 +7,5 @@ public:
         reverse(nums.begin()+k, nums.end());
     }
 };
+//100% beats solution in time
+//in memory roughly 45% beats
