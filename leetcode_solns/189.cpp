@@ -9,3 +9,4 @@ public:
 };
 //100% beats solution in time
 //in memory roughly 45% beats
+// brute force gives TLE, mood me ni hu approach likhne ke idhar but it gets stuck at testcase 39/41
