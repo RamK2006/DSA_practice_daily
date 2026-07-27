@@ -4,7 +4,7 @@ public:
         sort(nums.begin(),nums.end());
     }
 };
-// this is not allowed but best solution
+// this is not allowed but satisfies best solution , prefer not to use it
 
 // what you must write
 class Solution {
@@ -30,4 +30,28 @@ public:
         }
     }
 };
-//isse behtar kuch nahi
+//isse behtar kuch hai, wo hai german flag problem, and it is here
+
+
+class Solution {
+public:
+    void sortColors(vector<int>& arr) {
+        int n= arr.size();
+        int lo=0,mid=0,hi=n-1;
+       while(mid<=hi){
+            if(arr[mid]==1) mid++;
+            else if(arr[mid]==0){
+                swap(arr[lo],arr[mid]);
+                mid++;
+                lo++;
+            }
+            else{
+                swap(arr[mid],arr[hi]);
+                    hi--;
+                    //mid++;
+                }
+            }
+        }
+};
+
+// it includes 100% beats for sure 
