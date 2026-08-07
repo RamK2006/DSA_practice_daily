@@ -14,4 +14,5 @@ public:
         return "";
     }
 };
-//pata nahi aajkal n complexity me bhi 100% beats nai aarhe
+//pata nahi aajkal big O of n complexity me bhi 100% beats nai aarhe
+//this one has 32% beats
