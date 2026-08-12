@@ -1,2 +1,2 @@
 # DSA_practice_daily
-trying to maintain a streak from now on
+trying to gain command over DSA, just a learning journey
